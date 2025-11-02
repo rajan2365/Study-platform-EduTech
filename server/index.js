@@ -32,13 +32,15 @@ app.use((req,res,next)=>{
 //middlewares
 app.use(express.json());
 app.use(cookieParser()); //Ese As a middleware Use kr rhe hai ! 
-app.use(
-    cors({
-        origin: "http://localhost:3000",
-        credentials: true,
-    })
-)
 
+app.use(
+  cors({
+    origin: "https://study-platform-frontend-three.vercel.app", 
+    credentials: true,
+    methods: ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
+    allowedHeaders: ["Content-Type", "Authorization"],
+  })
+);
 
 app.use(
     fileUpload({
