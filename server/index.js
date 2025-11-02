@@ -35,10 +35,8 @@ app.use(cookieParser()); //Ese As a middleware Use kr rhe hai !
 
 app.use(
   cors({
-    origin: "https://study-platform-frontend-three.vercel.app", 
+    origin: "https://study-platform-bbfd.vercel.app", 
     credentials: true,
-    methods: ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
-    allowedHeaders: ["Content-Type", "Authorization"],
   })
 );
 
