@@ -23,3 +23,4 @@ export const getCatalogaPageData = async (categoryId) => {
     toast.dismiss(toastId);
     return result;
 }
+
