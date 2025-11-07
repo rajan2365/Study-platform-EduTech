@@ -34,8 +34,11 @@ app.use(express.json());
 app.use(cookieParser()); //Ese As a middleware Use kr rhe hai ! 
 
 app.use(
-  cors({
-    origin: "https://study-platform-edu-tech-phqc.vercel.app"
+   cors({
+    origin: [
+      "https://study-platform-edu-tech-phqc.vercel.app", // frontend URL
+      "http://localhost:3000", // for local development
+    ],
     credentials: true,
   })
 );
