@@ -1,7 +1,7 @@
 <<<<<<< HEAD
 
 # StudyNotion - EdTech Platform
-:rocket: [Link to website][https://studynotion-frontend.vercel.app/]
+:rocket: [Link to website][[https://study-platform-edu-tech-phqc.vercel.app/]
 
 
 ![Main Page](./Images/mainpage.png)
