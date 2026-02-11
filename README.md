@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 # StudyNotion - EdTech Platform
 :rocket: [Link to website][[https://study-platform-edu-tech-phqc.vercel.app/]
