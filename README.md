@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 
 # StudyNotion - EdTech Platform
 :rocket: [Link to website][[https://study-platform-edu-tech-phqc.vercel.app/]
@@ -135,4 +135,3 @@ Access the application in your browser at `http://localhost:3000`.
 =======
 # Study-platform-EduTech
 About 💚 StudyNotion is an edtech platform built using the MERN stack, offering interactive learning modules, personalized dashboards, collaborative tools, assessments, and a vast resource repository. 
->>>>>>> dc2da5f8b7bdba26fe14d3d87155735f3ee2e256
